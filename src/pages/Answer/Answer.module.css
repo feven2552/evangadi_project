@@ -1,0 +1,109 @@
+.answer {
+    padding: 20px;
+}
+
+.answer_container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.answer_container div {
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.answer_container_topq h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.answer_container_icon {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 36px;
+    width: 40%;
+}
+
+.answer_container input.first_input {
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    border: gray solid 1px;
+}
+
+.question_container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: gray solid 1px;
+}
+
+.answer_container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.answer_container button:hover {
+    background-color: #0056b3;
+}
+
+.answer_container button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+div a {
+    display: block;
+    text-align: center;
+}
+.answerUser{
+    display: flex;
+    flex-direction: column;
+}
+.answerfromusers{
+    margin-left: 30px;
+}
+@media (max-width: 768px) {
+    .answer_container {
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .answer_container h1 {
+        text-align: left;
+        margin-right: 0;
+        margin-left: 50px;
+    }
+
+}

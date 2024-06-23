@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+.both {
+    display: flex;
+    width: 880px;
+    margin: auto;
+    object-fit: contain;
+}
+
+.login {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.para_container {
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.para_container a {
+    margin-right: 370px;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.para_container button {
+    background-color: orange;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.para_container button:hover {
+    background-color: #FF8C00;
+}
+
+.para {
+    flex: 1;
+}
+.para_container h1 {
+    margin-top: 30px;
+    font-size: 2.2rem;
+}
+h1, p{
+    color: #4b456f;;
+}
+.para_container p {
+    margin-bottom: 10px;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.login_container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+}
+
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login h2 {
+    /* padding-bottom: 30px; */
+    margin-top: 30px;
+    text-align: center;
+}
+
+.login_container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.login_container form {
+    margin-bottom: 20px;
+}
+
+.login_container form div {
+    margin-bottom: 10px;
+}
+
+.login_container form span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login_container form input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.login_container form input:first-child,
+.login_container form input:last-child {
+    margin-right: 10px;
+}
+
+.login_container form input:focus {
+    outline: 2px solid lightsalmon;
+}
+
+.login_container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login_container form button:hover {
+    background-color: #ff8c00;
+}
+
+.login_container a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: orange;
+    text-decoration: none;
+}
+
+.login_container a:hover {
+    text-decoration: underline;
+}
+
+.bg {
+    background-color: #f5f5f5;
+    background-image: url("https://forum-frontend-7wi.pages.dev/static/media/bg-svg-f.192609b8540a56a36a47.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .both {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login_container {
+        /* margin-right: 300px; */
+        margin-top: 30px;
+        margin-right: 400px;
+    }
+
+    .para_container {
+        width: 410px;
+        margin-left: 40px;
+    }
+}

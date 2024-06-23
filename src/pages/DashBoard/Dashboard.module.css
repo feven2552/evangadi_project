@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.DashBoard_inner_container {
+    width: 1000px;
+    margin: auto;
+}
+
+.DashBoard_inner_container button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.DashBoard_inner_container button:hover {
+    background-color: #0056b3;
+}
+
+.DashBoard_inner_container button a {
+    color: #fff;
+}
+
+.DashBoard_inner_container h1 {
+    margin-left: 700px;
+}
+
+.icons {
+    display: flex;
+}
+.users{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.users b{
+    margin-left: 15px;
+}
+.icons_right {
+    margin-top: 60px;
+    margin-left: 470px;
+    color: #4b456f;;
+}
+.questionTitle{
+    display: flex;
+   
+}
+.mapped {
+    margin-top: 65px;
+    margin-left: 100px;
+    font-size: 20px;
+    width: 300px;
+    text-decoration: none;
+    color: #4b456f;;
+}
+
+.DashBoard_inner_container ul {
+    list-style: none;
+}
+
+@media (max-width: 1000px) {
+    .DashBoard_inner_container h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .icons_right {
+        margin-left: 700px;
+    }
+
+    .DashBoard_inner_container button {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .DashBoard_inner_container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .DashBoard_inner_container h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .icons_right {
+        margin-left: 400px;
+    }
+}
